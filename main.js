@@ -26,9 +26,6 @@ function addPost (e) {
 }
 
 
-
-
-
 function getPosts () {
   fetch('https://jsonplaceholder.typicode.com/posts')
    .then(res => res.json())
@@ -45,10 +42,6 @@ function getPosts () {
      document.getElementById('output').innerHTML = output;
    })
 }
-
-
-
-
 
 
 function getUsers () {
@@ -68,6 +61,7 @@ function getUsers () {
      document.getElementById('output').innerHTML = output;
    })
 }
+
 
 function getText () {
   fetch('sample.txt')
